@@ -1,0 +1,167 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>one8 Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+<style>
+    /* CSS reset: */
+    *{
+        font-family: 'Comfortaa', cursive;
+    }
+    body {
+        color: red;
+        margin: 0px;
+        padding: 0px;
+        background: url('Random Pushup nobg1.png'),
+        linear-gradient(to right, black, grey) repeat;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1118px;
+        /* background-color: grey; */
+        /* background-image: -moz-linear-gradient(); */
+        
+        
+
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px groove black;
+        border-radius: 5px;
+        position: absolute;
+        left: 34px;
+        top: 18px;
+        position: fixed;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .mid {
+        display: block;
+        width: 650px;
+        border: 2px groove green;
+        margin: 18px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        display: inline-block;
+        border: 2px groove #212168;
+        background-color: #607d8b;
+        border-radius: 5px;   
+        position: fixed;    
+    }
+    .right img{
+        width: 36px;
+    }
+    .right:hover{
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #5e676b;
+    }
+
+    .navbar {
+        padding-left: 11px;
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 31px;
+    }
+
+    .navbar li a:hover {
+        color: grey;
+    }
+    .container{
+        border: 2px groove grey;
+        color: white;
+        margin: 2px 2px;
+        padding: 2px 2px;
+        width: 40%;
+        border-radius: 36px;
+        position: relative;
+        top: 588px;
+        left: 408px;
+        background-image: linear-gradient(to right,#BA8B02 ,#181818 );
+    }
+    .form-group input{
+       width: 531px;
+       margin: 6px;
+       border-radius: 8px;
+       font-weight: bolder;
+       
+    }
+    .form-group button{
+        margin-left: 230px;
+        margin-bottom: 0px;
+        font-weight: bolder;
+    }
+</style>
+
+<body>
+    
+    <header class="Header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="one8 logo2.jfif" alt="">
+
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> About Us </a></li>
+                <li><a href="#"> Fitness Calculator </a></li>
+                <li><a href="#"> Contact Us </a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <img src="Bar.png" alt="">
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The One8 Fitness GYM Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="City">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Mobile Number">
+            </div>
+            <div class="form-group">
+                <button class="form-group">Join</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>
